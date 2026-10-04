@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     '7.1 Home Theatre': '₹ 27,999.00',
 
-    '5.1 Basic Remote Model HDMI Home Theatre': '₹ 19,999.00',
+    '5.1 Basic Remote Model HDMI Home Theatre': '₹ 22,999.00',
 
     'Dolby Digital Plus HDMI Amplifer': '₹ 11,999.00',
 
@@ -56,9 +56,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     'True Dolby Atoms 9 Track Complete Package Home Theatre': '₹ 74,000.00',
 
-    'Dolby Atoms 5.1 Complete Package': '₹ 27,999.00',
+    'Dolby Atoms 5.1 Complete Package': '₹ 31,999.00',
 
-    '5.1 Home Theatre': '₹ 16,999.00',
+    '5.1 Home Theatre': '₹ 18,999.00',
 
     'mini movie theater': '₹ 6,99,999.00',
 
@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'on-grid': {
       category: 'Home theatre',
       name: '2.1 Home theatre',
-      image: 'images/2.1.png',
+      image: 'images/2.1 Home Theatre.png',
       desc: 'enjoy clear stereo sound with a dedicated subwoofer for deep, rich bass.A compact and stylish setup, ideal for bedrooms, living rooms, and smaller spaces.',
       features: [
         'Dolby 2.1 Amplifer',
@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'residential': {
       category: 'home theatre',
       name: '5.1 HDMI Dolby Atoms',
-      image: 'images/5.1dolbyatoms.jpeg',
+      image: 'images/5.1 HDMI Dolby Atoms.png',
       desc: 'Experience immersive, cinematic sound with our 5.1 Dolby Atmos Home Theatre, delivering rich audio,powerful bass, and detailed surround sound.Perfect for movies, music, gaming, and entertainment, bringing a theatre-like audio experience right intoyour home.',
       features: [
         'HDMI, Optical, Coixel & Bluetooth',
@@ -192,7 +192,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'fencing': {
       category: 'Home Theatre',
       name: '5.1 Basic Remote Model HDMI Home Theatre',
-      image: 'images/5.1 basic remote.png',
+      image: 'images/5.1 Basic Remote Model HDMI Home Theatre.png',
       desc: 'Enjoy immersive 5.1-channel surround sound with clear dialogue, powerful bass, and a cinematic audio experience at home.',
       features: [
         'HDMI, Optical, Coixel & Bluetooth',
@@ -262,7 +262,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'solar-ac': {
       category: 'Home Theatre',
       name: 'Dolby Atoms 5.1 Complete Package',
-      image: 'images/DA5.1CompletePackage.jpeg',
+      image: 'images/Dolby Atoms 5.1 Complete Package.png',
       desc: 'Enjoy immersive 5.1-channel Dolby Atmos surround sound with powerful bass, crystal-clear dialogue, and detailed audio effects.',
       features: [
         'HDMI, Arc, Optical, Coaxel, bluetooth',
@@ -276,7 +276,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'solar-cctv': {
       category: 'Home Theatre',
       name: '5.1 Home Theatre',
-      image: 'images/5.1 basic.png',
+      image: 'images/5.1 Home Theatre.png',
       desc: 'Enjoy an immersive surround-sound experience with our 5.1 Basic Home Theatre, featuring five speakers and a powerful subwoofer for clear vocals, detailed audio, and deep bass.',
       features: [
         'Optical, Coixel & Bluetooth',
