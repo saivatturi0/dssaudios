@@ -33,39 +33,37 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Product prices used in enquiry messages and WhatsApp.
   const productPrices = {
-
-    'Mini theatre': '₹ 2,99,999.00',
-
-    '2.1 Home Theatre': '₹ 5,499.00',
-
-    '5.1 HDMI Dolby Atoms': '₹ 27,999.00',
-
-    '5.1 Basic Manual Home Theatre': '₹ 7,999.00',
-
-    '5.1 premium Amplifer': '₹ 13,999.00',
-
-    '7.1 Home Theatre': '₹ 27,999.00',
-
-    '5.1 Basic Remote Model HDMI Home Theatre': '₹ 22,999.00',
-
-    'Dolby Digital Plus HDMI Amplifer': '₹ 11,999.00',
-
-    '5.1 complete package Home Theatre': '₹ 33,999.00',
-
-    '5.1 Dolby Atoms & Dolby Digital Plus Home Theatre': '₹ 34,999.00',
-
-    'True Dolby Atoms 9 Track Complete Package Home Theatre': '₹ 74,000.00',
-
-    'Dolby Atoms 5.1 Complete Package': '₹ 31,999.00',
-
-    '5.1 Home Theatre': '₹ 18,999.00',
-
-    'mini movie theater': '₹ 6,99,999.00',
-
-    '5.1 premium home Theatre': '₹ 27,999.00',
-
-    'luxury movie theater': '₹ 7,99,999.00'
-
+    "Mini Theatre": "\u20b9 2,99,999.00",
+    "True Dolby Atoms 9 Track Home Theatre": "\u20b9 89,999.00",
+    "Dolby Atoms Dual Amplifiers": "\u20b9 37,999.00",
+    "4 Inch Boxes & 12 Inch Sub": "\u20b9 12,999.00",
+    "2.1 Home Theatre": "\u20b9 5,499.00",
+    "5.1 Basic Manual Home Theatre": "\u20b9 14,999.00",
+    "Dolby Atoms Optical Mode Complete 5.1 Package Home Theatre": "\u20b9 19,999.00",
+    "Dolby ATOMS HDMI 5.1 Complete package": "\u20b9 24,999.00",
+    "premium Dolby Atoms 5.1 Complete Package Home theatre": "\u20b9 31,999.00",
+    "Premium JBL Complete Package Home Theatre": "\u20b9 34,999.00",
+    "Premium HDMI Dolby Atoms 5.1 Complete Home Theatre": "\u20b9 38,999.00",
+    "premimum DTS-X & Dolby Atoms 5.1 Complete Package Home Theatre": "\u20b9 41,999.00",
+    "Dolby Dgital & DTS 5.1 Complete Package Home Theatre": "\u20b9 21,999.00",
+    "Dolby Digtal & DTS 5.1 Complete Package Home Theatre": "\u20b9 20,999.00",
+    "Dolby Atoms 7.2 Complete Home Theatre With Sparate Power Amplifer": "\u20b9 54,999.00",
+    "Dolby Digital Plus or Dolby Atoms Convertable 7.1 or 5.2.1 Ch Home Theatre": "\u20b9 59,999.00",
+    "True 7.1 Complete Pakcage Home Theatre": "\u20b9 45,999.00",
+    "Dolby 7.1 Basic Home Theatre Package": "\u20b9 27,999.00",
+    "True Dolby Atmos 5.2.2 Channel Home Theatre System package": "\u20b9 69,999.00",
+    "True Dolby Atmos 5.2.1 Channel Home Theatre System package": "\u20b9 63,999.00",
+    "True Dolby Atoms With JBL 15 Inch Subwoofer": "\u20b9 75,999.00",
+    "Dolby Atoms 5.1 Home Theatre": "\u20b9 37,999.00",
+    "Amplifier": "\u20b9 3,999.00",
+    "Amplifier": "\u20b9 37,999.00",
+    "Amplifier": "\u20b9 7,999.00",
+    "Amplifier": "\u20b9 37,999.00",
+    "Amplifier": "\u20b9 37,99.00",
+    "Amplifier": "\u20b9 37,999.00",
+    "Amplifier": "\u20b9 7,999.00",
+    "Amplifier": "\u20b9 37,999.00",
+    "Amplifier": "\u20b9 37,99.00",
   };
 
 
@@ -104,229 +102,464 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Product data for the details modal
   const productsData = {
-
-    'off-grid': {
-      category: 'Mini theatre',
-      name: 'Mini theatre',
-      image: 'images/mini1.png',
-      desc: 'Experience the Ultimate Cinema at Home positions D.S.S Audios as a provider of a complete home-cinema experience rather than just an audio system.',
-      features: [
-        'Complete Acoustic',
-        'Premium Sofa Recliners',
-        '4K projector & UHD 3D Screen',
-        'Complete 7.2 Audio Package'
-      ]
+    'audio-1': {
+      category: "Mini Theatre",
+      name: "Mini Theatre",
+      image: "images/movietheatre1.webp",
+      desc: "Experience the Ultimate Cinema at Home positions D.S.S Audios as a provider of a complete home-cinema experience rather than just an audio system.",
+      features: ["Complete Acoustic", "Premium Sofa Recliners", "4K projector & UHD 3D Screen", "Complete 7.2 Audio Package"]
     },
 
-
-    'on-grid': {
-      category: 'Home theatre',
-      name: '2.1 Home theatre',
-      image: 'images/2.1 Home Theatre.png',
-      desc: 'enjoy clear stereo sound with a dedicated subwoofer for deep, rich bass.A compact and stylish setup, ideal for bedrooms, living rooms, and smaller spaces.',
-      features: [
-        'Dolby 2.1 Amplifer',
-        'Bluetooth, Usb, Aux',
-        '3 Inch Boxs & 8 Inch Woofer',
-        'Multiple Connectivity'
-      ]
+    'audio-2': {
+      category: "Home Theatre",
+      name: "True Dolby Atoms 9 Track Home Theatre",
+      image: "images/image2.webp",
+      desc: "Experience immersive, cinema-quality sound with a True Dolby Atmos 9-Track Home Theatre designed for powerful surround effects and crystal-clear dialogue.",
+      features: ["", "", "", ""]
     },
 
-
-    'residential': {
-      category: 'home theatre',
-      name: '5.1 HDMI Dolby Atoms',
-      image: 'images/5.1 HDMI Dolby Atoms.png',
-      desc: 'Experience immersive, cinematic sound with our 5.1 Dolby Atmos Home Theatre, delivering rich audio,powerful bass, and detailed surround sound.Perfect for movies, music, gaming, and entertainment, bringing a theatre-like audio experience right intoyour home.',
-      features: [
-        'HDMI, Optical, Coixel & Bluetooth',
-        'Usb 3.0 & Aux',
-        '6 Inch Satellites & JBL 12 Inch 1500 Watt SubWoofer',
-        'Limited 1 year Warrenty'
-      ]
+    'audio-3': {
+      category: "Amplifier",
+      name: "Dolby Atoms Dual Amplifiers",
+      image: "images/image3.webp",
+      desc: "Experience powerful Dolby Atmos surround sound with dual amplifiers delivering clear, detailed audio and deep, impactful bass.",
+      features: ["", "", "", ""]
     },
 
-
-    'industrial': {
-      category: 'Home Theatre',
-      name: '5.1 Basic Manual Home Theatre',
-      image: 'images/5.1basic.jpeg',
-      desc: 'Enjoy powerful, high-quality surround sound with the 5.1 Basic Home Theatre, featuring 3-inch satellitespeakers and an 8-inch subwoofer.',
-      features: [
-        '3-Inch Satellite & 8-Inch Subwoofer',
-        'Optical, Coixel & Bluetooth',
-        'Usb 2.0 & Aux',
-        'Budget-Friendly Complete Package'
-      ]
+    'audio-4': {
+      category: "Boxes",
+      name: "4 Inch Boxes & 12 Inch Sub",
+      image: "images/box1.webp",
+      desc: "Enjoy clear, detailed sound from compact 4-inch speaker boxes paired with a powerful 12-inch subwoofer for deep, punchy bass.",
+      features: ["", "", "", ""]
     },
 
-
-    'power-plants': {
-      category: 'Home Theatre',
-      name: '5.1 premium Amplifer',
-      image: 'images/5.1premiummodelamplifier.jpeg',
-      desc: 'Experience cinematic sound with Dolby Atmos and DTS:X 5.1, delivering immersive surround sound and powerful audio for movies, music, and gaming.',
-      features: [
-        'Dolby Atmos & DTS:X 5.1',
-        'HDMI ARC, Optical, Coaxial',
-        'DTS-HD Master Audio',
-        'Enhanced digital sound processing'
-      ]
+    'audio-5': {
+      category: "Home Theatre",
+      name: "2.1 Home Theatre",
+      image: "images/image5.webp",
+      desc: "enjoy clear stereo sound with a dedicated subwoofer for deep, rich bass.A compact and stylish setup, ideal for bedrooms, living rooms, and smaller spaces.",
+      features: ["Dolby 2.1 Amplifer", "Bluetooth, Usb, Aux", "3 Inch Boxs & 8 Inch Woofer", "Multiple Connectivity"]
     },
 
-
-    'ev-charging': {
-      category: 'Home Theatre',
-      name: '7.1 Home Theatre',
-      image: 'images/7.1.png',
-      desc: 'Experience powerful 7.1-channel surround sound with Dolby Atmos, delivering crystal-clear audio, deep bass, and an immersive theatre experience at home.',
-      features: [
-        'HDMI, Optical, Coixel & Bluetooth',
-        'Usb 2.0 & Aux',
-        '4 Inch Satellites & JBL 12 Inch 1500 Watt SubWoofer',
-        'Limited 1 year Warrenty'
-      ]
+    'audio-6': {
+      category: "Home Theatre",
+      name: "5.1 Basic Manual Home Theatre",
+      image: "images/image20.webp",
+      desc: "Enjoy immersive 5.1 surround sound with clear vocals, detailed effects, and powerful bass for an engaging movie experience.",
+      features: ["", "", "", ""]
     },
 
-
-    'fencing': {
-      category: 'Home Theatre',
-      name: '5.1 Basic Remote Model HDMI Home Theatre',
-      image: 'images/5.1 Basic Remote Model HDMI Home Theatre.png',
-      desc: 'Enjoy immersive 5.1-channel surround sound with clear dialogue, powerful bass, and a cinematic audio experience at home.',
-      features: [
-        'HDMI, Optical, Coixel & Bluetooth',
-        'Usb 2.0 & Aux',
-        '6 Inch rare & 4 Inch Front & 4 Inch Center',
-        'JBL 12 Inch 1500 Watt SubWoofer'
-      ]
+    'audio-7': {
+      category: "Home Theatre",
+      name: "Dolby Atoms Optical Mode Complete 5.1 Package Home Theatre",
+      image: "images/image7.webp",
+      desc: "Experience immersive Dolby Atmos Optical Mode sound with a complete 5.1 home theatre package,delivering rich, powerful audio and cinematic surround sound.",
+      features: ["", "", "", ""]
     },
 
-
-    'solar-wind': {
-      category: 'Home Theatre',
-      name: 'Dolby Digital Plus HDMI Amplifer',
-      image: 'images/hdmiamplifer.jpeg',
-      desc: 'Experience powerful and immersive Dolby Digital Plus surround sound with clear dialogue, rich details, and deep bass for a cinematic audio experience.',
-      features: [
-        'Basic HDMI Optical',
-        'Coaxel & Bluetooth',
-        'Usb & Aux',
-        'Limited 1 year Warrenty'
-      ]
+    'audio-8': {
+      category: "Home Theatre",
+      name: "Dolby Atoms HDMI 5.1 Complete package ",
+      image: "images/image8.webp",
+      desc: "Experience immersive Dolby Atmos sound with HDMI 5.1 connectivity, delivering powerful, detailed audio for movies, music, and gaming.",
+      features: ["", "", "", ""]
     },
 
-
-    'water-heaters': {
-      category: 'Home Theatre',
-      name: '5.1 complete package',
-      image: 'images/5.1completepackage.jpeg',
-      desc: 'Enjoy a complete 5.1-channel surround sound system with powerful bass, clear dialogue, and immersive audio for movies and music.',
-      features: [
-        'HDMI, Arc, Optical, Coaxel, bluetooth',
-        'Usb 3.0, Aux Inputs',
-        '6 Inch JBL Boxes & Kicker 2800 Watt Subwoofer',
-        '1 Year Warrenty'
-      ]
+    'audio-9': {
+      category: "Home Theatre Package",
+      name: "premium Dolby Atoms 5.1 Complete Package Home theatre",
+      image: "images/image9.webp",
+      desc: "Experience immersive Dolby Atmos 5.1 surround sound with powerful bass, crystal-clear dialogue, and detailed cinematic effects.",
+      features: ["", "", "", ""]
     },
 
-
-    'street-lighting': {
-      category: 'Home Theatre',
-      name: '5.1 Dolby Atoms & Dolby Digital Plus Home Theatre',
-      image: 'images/5.1da&dd+completepackage.jpeg',
-      desc: 'Experience immersive 5.1-channel surround sound with Dolby Atmos and Dolby Digital Plus, delivering crystal-clear dialogue, rich details, and deep bass.',
-      features: [
-        'HDMI, Arc, Optical, Coaxel, bluetooth',
-        'Usb 3.0, Aux Inputs',
-        'Primimum Model 4 Inch JBL Boxes & 1500 Watt 12 Inch JBL Subwoofer',
-        '1 Year Warrenty'
-      ]
+    'audio-10': {
+      category: "Home Theatre Package",
+      name: "Premium JBL Complete Package Home Theatre",
+      image: "images/image10.webp",
+      desc: "Experience powerful JBL sound with crystal-clear audio, deep bass, and immersive surround effects for an exceptional cinematic experience.",
+      features: ["", "", "", ""]
     },
 
-
-    'cold-storage': {
-      category: 'Home Theatre',
-      name: 'True Dolby Atoms 9 Track Complete Package Home Theatre',
-      image: 'images/9trackDA.jpeg',
-      desc: 'Experience true Dolby Atmos 9-track surround sound with immersive audio, powerful bass, and crystal-clear details for a realistic cinematic experience.',
-      features: [
-        'HDMI Inputs 3, HDMI EArc 1, Optical, Coaxel, Bluetooth, Usb, Aux',
-        'Dual Amplifer Support 6 Inch Dolby Atoms Satllites',
-        'Selling Satllites 12 Inch JBL Dual SubWooffer',
-        'Dolby Audio, 4k UHD Video Support'
-      ]
+    'audio-11': {
+      category: "Premium Home Theatre",
+      name: "Premium HDMI Dolby Atoms 5.1 Complete Home Theatre",
+      image: "images/image11.webp",
+      desc: "Enjoy immersive Dolby Atmos 5.1 surround sound with HDMI connectivity, powerful bass, and crystal- clear cinematic audio.",
+      features: ["", "", "", ""]
     },
 
-
-    'solar-ac': {
-      category: 'Home Theatre',
-      name: 'Dolby Atoms 5.1 Complete Package',
-      image: 'images/Dolby Atoms 5.1 Complete Package.png',
-      desc: 'Enjoy immersive 5.1-channel Dolby Atmos surround sound with powerful bass, crystal-clear dialogue, and detailed audio effects.',
-      features: [
-        'HDMI, Arc, Optical, Coaxel, bluetooth',
-        'Usb 3.0, Aux Inputs',
-        '6 Inch Satellites & JBL 12 Inch 1500 Watt SubWoofer',
-        'Limited 1 year Warrenty'
-      ]
+    'audio-12': {
+      category: "Home Theatre Package",
+      name: "premimum DTS-X & Dolby Atoms 5.1 Complete Package Home Theatre",
+      image: "images/image12.webp",
+      desc: "Experience immersive DTS-X and Dolby Atmos 5.1 surround sound with powerful bass and crystal-clear cinematic details.",
+      features: ["", "", "", ""]
     },
 
-
-    'solar-cctv': {
-      category: 'Home Theatre',
-      name: '5.1 Home Theatre',
-      image: 'images/5.1 Home Theatre.png',
-      desc: 'Enjoy an immersive surround-sound experience with our 5.1 Basic Home Theatre, featuring five speakers and a powerful subwoofer for clear vocals, detailed audio, and deep bass.',
-      features: [
-        'Optical, Coixel & Bluetooth',
-        'Usb 2.0 & Aux',
-        '4 Inch Satellites & 12 Inch JBL 1500 Watt SubWoofer',
-        'Limited 1 year Warrrty'
-      ]
+    'audio-13': {
+      category: "Home Theatre",
+      name: "Dolby Digtal & DTS 5.1 Complete Package Home Theatre ",
+      image: "images/image13.webp",
+      desc: "Experience powerful 5.1 surround sound with Dolby Digital and DTS, delivering clear dialogue, immersive effects, and deep bass.",
+      features: ["", "", "", ""]
     },
 
-
-    'fixed-cctv': {
-      category: 'movie theater',
-      name: 'mini movie theater',
-      image: 'images/luxury movie theater.jpg',
-      desc: 'Experience a premium cinematic atmosphere with immersive surround sound, powerful bass, and a luxurious theatre-room setup.',
-      features: [
-        '4K Ultra HD home cinema projector',
-        '7.2.4 Dolby Atmos surround sound system',
-        'Premium comfortable recliner seating',
-        'High-quality movie viewing experience'
-      ]
+    'audio-14': {
+      category: "Movie Theatre",
+      name: "Dolby Digtal & DTS 5.1 Complete Package Home Theatre ",
+      image: "images/image14.webp",
+      desc: "Enjoy immersive 5.1 surround sound with Dolby Digital & DTS for crystal-clear dialogue and powerful cinematic effects. ",
+      features: ["", "", "", ""]
     },
 
-
-    'ptz-cctv': {
-      category: 'Premium home Theatre',
-      name: '5.1 premium Home Theatre',
-      image: 'images/5.1 premium.jpeg',
-      desc: 'Enjoy immersive cinematic sound with the 5.1 Premium Home Theatre, featuring 6-inch satellite speakers and a powerful JBL 12-inch 1500W subwoofer.',
-      features: [
-        'HDMI ARC, Optical, Coaxal, Bluetooth',
-        'Usb 3.0 & Aux',
-        '6 Inch Satellites & JBL 12 Inch 1500 Watt SubWoofer',
-        'Limited 1 year Warrenty'
-      ]
+    'audio-15': {
+      category: "Premium Home Theatre",
+      name: "Dolby Atoms 7.2 Complete Home Theatre With Sparate Power Amplifer",
+      image: "images/image15.webp",
+      desc: "Experience immersive Dolby Atmos 7.2 surround sound with powerful bass, crystal-clear dialogue, and detailed cinematic effects.",
+      features: ["", "", "", ""]
     },
 
-    'solar-light-cctv': {
-      category: 'movie theater',
-      name: 'luxury movie theater',
-      image: 'images/mini movie theatre.jpg',
-      desc: 'A premium luxury movie theatre designed for an immersive cinematic experience, featuring plush recliner seating, a large projection screen, and elegant acoustic interiors.',
-      features: [
-        '4K Ultra HD Laser Projector & Screen',
-        '7.2.4 Full Dolby Atmos Home Theatre',
-        'Luxury motorized recliner seating',
-        'immersive 3D surround sound.'
-      ]
-    }
+    'audio-16': {
+      category: "7.1 Home Theatre",
+      name: "Dolby Digital Plus & Dolby Atoms Convertable 7.1 Home Theatre",
+      image: "images/image16.webp",
+      desc: "Experience immersive 7.1 surround sound with Dolby Digital Plus & Dolby Atmos for rich, detailed, and cinematic audio. ",
+      features: ["", "", "", ""]
+    },
 
+    'audio-17': {
+      category: "True 7.1 Home Theatre",
+      name: "True 7.1 Complete Pakcage Home Theatre",
+      image: "images/iamge17.webp",
+      desc: "Experience powerful 7.1 surround sound with immersive audio, crystal-clear dialogue, and detailed cinematic effects.",
+      features: ["", "", "", ""]
+    },
+
+    'audio-18': {
+      category: "Dolby Atoms Home Theatre ",
+      name: "Dolby 7.1 Basic Home Theatre Package",
+      image: "images/image18.webp",
+      desc: "Enjoy immersive 7.1 Dolby surround sound with clear dialogue, balanced audio, and powerful cinematic effects.",
+      features: ["", "", "", ""]
+    },
+
+    'audio-19': {
+      category: "5.2.2 Home Theatre",
+      name: "True Dolby Atmos 5.2.2 Channel Home Theatre System package ",
+      image: "images/image19.webp",
+      desc: "Complete package designed to deliver a premium cinematic experience with sound coming from every direction.",
+      features: ["", "", "", ""]
+    },
+
+    'audio-20': {
+      category: "Home Thetare",
+      name: "True Dolby Atoms With JBL 15 Inch Subwoofer",
+      image: "images/image21.webp",
+      desc: "Experience immersive True Dolby Atmos 5.2.1 Channel Home Theatre with powerful bass, crystal-clear audio, and realistic surround sound.",
+      features: ["", "", "", ""]
+    },
+
+    'audio-21': {
+      category: "Home Theatre",
+      name: "True Dolby Atoms With JBL 15 Inch Subwoofer",
+      image: "images/image22.webp",
+      desc: "Experience True Dolby Atmos with a powerful JBL 15-inch Subwoofer for deep bass, crystal-clear sound, and immersive surround audio.",
+      features: ["", "", "", ""]
+    },
+
+    'audio-22': {
+      category: "Home theatre",
+      name: "Dolby Atoms 5.1 Home Theatre",
+      image: "images/image23.webp",
+      desc: "Experience Dolby Atmos 5.1 Home Theatre with immersive surround sound, crystal-clear dialogue, and powerful bass.",
+      features: ["", "", "", ""]
+    },
+
+    'audio-23': {
+      category: "Amplifier",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+
+    'audio-24': {
+      category: "Amplifier",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+
+    'audio-25': {
+      category: "Amplifier",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+
+    'audio-26': {
+      category: "Amplifier",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+
+    'audio-27': {
+      category: "Amplifier",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+
+    'audio-28': {
+      category: "Amplifier",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+
+    'audio-29': {
+      category: "Amplifier",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+
+    'audio-30': {
+      category: "Amplifier",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+
+    'audio-31': {
+      category: "Amplifier",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+
+    'audio-32': {
+      category: "Amplifier",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+    'audio-33': {
+      category: "Amplifier",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+    'audio-34': {
+      category: "Amplifier",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+    'audio-35': {
+      category: "Amplifier",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+    'audio-36': {
+      category: "Amplifier",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+    'audio-37': {
+      category: "Amplifier",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+    'audio-38': {
+      category: "Amplifier",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+    'audio-39': {
+      category: "Amplifier",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+    'audio-40': {
+      category: "Amplifier",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+    'audio-41': {
+      category: "Amplifier",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+    'audio-42': {
+      category: "boxes",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+    'audio-43': {
+      category: "boxes",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+    'audio-44': {
+      category: "boxes",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+    'audio-45': {
+      category: "boxes",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+    'audio-46': {
+      category: "boxes",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+    'audio-47': {
+      category: "movie Theatre",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+    'audio-48': {
+      category: "movie Theatre",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+    'audio-49': {
+      category: "movie Theatre",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+    'audio-50': {
+      category: "movie Theatre",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+    'audio-51': {
+      category: "movie Theatre",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+    'audio-52': {
+      category: "movie Theatre",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+    'audio-53': {
+      category: "movie Theatre",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+    'audio-54': {
+      category: "Home Theatre",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+    'audio-55': {
+      category: "Home Theatre",
+      name: "",
+      image: "images",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+    'audio-56': {
+      category: "Home Theatre",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+    'audio-57': {
+      category: "Home Theatre",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+    'audio-58': {
+      category: "Home Theatre",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+    'audio-59': {
+      category: "Home Theatre",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+    'audio-60': {
+      category: "Home Theatre",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
+    'audio-61': {
+      category: "Home Theatre",
+      name: "",
+      image: "images/",
+      desc: "",
+      features: ["", "", "", ""]
+    },
   };
 
 
@@ -596,7 +829,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   // =========================================================
-  // REVEAL WHY JBS UNIVERSE CONTENT
+  // REVEAL WHY DSS AUDIOS CONTENT
   // =========================================================
 
   const whyMore =

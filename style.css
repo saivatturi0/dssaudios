@@ -2574,3 +2574,64 @@ body {
     transition-duration: 0.01ms !important;
   }
 }
+
+
+/* =================================================================
+   DSS AUDIOS — WHY DSS AUDIOS HOME CARDS
+   ================================================================= */
+.premium-why-section .why-home-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+.premium-why-section .why-audio-card {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 18px;
+  padding: 2rem 1.6rem;
+  min-height: 230px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.premium-why-section .why-audio-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.13);
+}
+
+.premium-why-section .why-audio-card > i {
+  width: 64px;
+  height: 64px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  background: var(--primary-green, #1f7a4d);
+  color: #fff;
+}
+
+.premium-why-section .why-audio-card h3 {
+  margin: .2rem 0 .75rem;
+}
+
+.premium-why-section .why-audio-card p {
+  margin: 0;
+  line-height: 1.7;
+}
+
+@media (max-width: 900px) {
+  .premium-why-section .why-home-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .premium-why-section .why-home-grid {
+    grid-template-columns: 1fr;
+  }
+}
