@@ -280,122 +280,122 @@ document.addEventListener('DOMContentLoaded', () => {
 
     'audio-23': {
       category: "Amplifier",
-      name: "",
-      image: "images/",
-      desc: "",
+      name: "Manual 5.1 Amplifier",
+      image: "images/ampimage1.webp",
+      desc: "Delivers immersive 5.1-channel audio output by driving five discrete speakers and a dedicated subwoofer for cinematic home theater experiences.",
       features: ["", "", "", ""]
     },
 
     'audio-24': {
       category: "Amplifier",
-      name: "",
-      image: "images/",
-      desc: "",
+      name: "Optical 5.1 Amplifier",
+      image: "images/ampimage2.webp",
+      desc: "Features a dedicated optical (Toslink) digital input for crystal-clear, lossless signal transmission directly from TVs, gaming consoles, and media players.",
       features: ["", "", "", ""]
     },
 
     'audio-25': {
       category: "Amplifier",
-      name: "",
-      image: "images/",
-      desc: "",
+      name: "Basic HDMI 5.1 Amplifier",
+      image: "images/ampimage3.webp",
+      desc: "Equipped with HDMI ports for high-definition digital audio and video pass-through, simplifying setup with modern TVs and media sources.",
       features: ["", "", "", ""]
     },
 
     'audio-26': {
       category: "Amplifier",
-      name: "",
-      image: "images/",
-      desc: "",
+      name: "Preimum HDMI 5.1 Amplifier Model 1",
+      image: "images/ampimage4.webp",
+      desc: "Equipped with high-speed HDMI ports supporting 4K HDR pass-through, eARC, and seamless multi-device connectivity for modern home theaters.",
       features: ["", "", "", ""]
     },
 
     'audio-27': {
       category: "Amplifier",
-      name: "",
-      image: "images/",
-      desc: "",
+      name: "Astra 5.1 Amplifier model 1",
+      image: "images/ampimage5.webp",
+      desc: "Combines high-fidelity circuit design with robust power output to deliver crisp, distortion-free 5.1-channel surround sound.",
       features: ["", "", "", ""]
     },
 
     'audio-28': {
       category: "Amplifier",
-      name: "",
-      image: "images/",
-      desc: "",
+      name: "Astra 5.1 Amplifier model 2",
+      image: "images/ampimage6.webp",
+      desc: "Features upgraded internal components and refined audio tuning to deliver even more powerful, crystal-clear 5.1-channel surround sound.",
       features: ["", "", "", ""]
     },
 
     'audio-29': {
       category: "Amplifier",
-      name: "",
-      image: "images/",
-      desc: "",
+      name: "Preimum HDMI 5.1 Amplifier Model 2",
+      image: "images/ampimage7.webp",
+      desc: "Features advanced HDMI ports with 4K/8K pass-through, enhanced audio return channel (eARC), and lightning-fast switching for modern gaming and home theater setups.",
       features: ["", "", "", ""]
     },
 
     'audio-30': {
       category: "Amplifier",
-      name: "",
-      image: "images/",
-      desc: "",
+      name: "Preimum HDMI 5.1 Amplifier Model 3",
+      image: "images/ampimage8.webp",
+      desc: "Features state-of-the-art HDMI connectivity supporting ultra-high-definition 8K video pass-through, variable refresh rate (VRR), and eARC for ultimate home theater and gaming performance.",
       features: ["", "", "", ""]
     },
 
     'audio-31': {
       category: "Amplifier",
-      name: "",
-      image: "images/",
-      desc: "",
+      name: "Preimum HDMI 5.1 Amplifier Model 4",
+      image: "images/ampimage9.webp",
+      desc: "Features ultra-advanced HDMI ports with lightning-fast switching, full 8K/4K passthrough, and advanced gaming optimizations like ALLM and VRR.",
       features: ["", "", "", ""]
     },
 
     'audio-32': {
       category: "Amplifier",
-      name: "",
-      image: "images/",
-      desc: "",
+      name: "Preimum HDMI 5.1 Amplifier Model 5",
+      image: "images/ampimage10.webp",
+      desc: "Delivers reference-grade multi-channel power and precision acoustic tuning for an uncompromising, theater-quality audio experience.",
       features: ["", "", "", ""]
     },
     'audio-33': {
       category: "Amplifier",
-      name: "",
-      image: "images/",
-      desc: "",
+      name: "Preimum HDMI 7.1 Amplifier MOdel 1",
+      image: "images/ampimage11.webp",
+      desc: "Equipped with high-speed HDMI ports supporting 4K/8K pass-through, eARC, and seamless multi-device connectivity for immersive surround sound.",
       features: ["", "", "", ""]
     },
     'audio-34': {
       category: "Amplifier",
-      name: "",
-      image: "images/",
-      desc: "",
+      name: "Preimum HDMI 7.1 Amplifier MOdel 2",
+      image: "images/ampimage12.webp",
+      desc: "Features upgraded HDMI ports with advanced video pass-through, enhanced audio return channel (eARC), and lightning-fast switching for modern home theaters and gaming setups.",
       features: ["", "", "", ""]
     },
     'audio-35': {
       category: "Amplifier",
-      name: "",
-      image: "images/",
-      desc: "",
+      name: "True Dolby Atoms Amplifier Model 1",
+      image: "images/ampimage13.webp",
+      desc: "Delivers robust, high-fidelity amplification across all discrete channels to bring dynamic movie soundtracks and music to life with exceptional clarity.",
       features: ["", "", "", ""]
     },
     'audio-36': {
       category: "Amplifier",
-      name: "",
-      image: "images/",
+      name: "True Dolby Atoms Amplifier Model 2",
+      image: "images/ampimage14.webp",
       desc: "",
       features: ["", "", "", ""]
     },
     'audio-37': {
       category: "Amplifier",
-      name: "",
-      image: "images/",
-      desc: "",
+      name: "True Dolby Atoms Amplifier Model 3",
+      image: "images/ampimage15.webp",
+      desc: "Features advanced object-based audio decoding to deliver ultra-precise 3D spatial sound and breathtaking overhead effects for ultimate home theater immersion.",
       features: ["", "", "", ""]
     },
     'audio-38': {
       category: "Amplifier",
       name: "",
-      image: "images/",
+      image: "images/ampimage16.webp",
       desc: "",
       features: ["", "", "", ""]
     },
