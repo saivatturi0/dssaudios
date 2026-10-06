@@ -55,15 +55,32 @@ document.addEventListener('DOMContentLoaded', () => {
     "True Dolby Atmos 5.2.1 Channel Home Theatre System package": "\u20b9 63,999.00",
     "True Dolby Atoms With JBL 15 Inch Subwoofer": "\u20b9 75,999.00",
     "Dolby Atoms 5.1 Home Theatre": "\u20b9 37,999.00",
-    "Amplifier": "\u20b9 3,999.00",
-    "Amplifier": "\u20b9 37,999.00",
-    "Amplifier": "\u20b9 7,999.00",
-    "Amplifier": "\u20b9 37,999.00",
-    "Amplifier": "\u20b9 37,99.00",
-    "Amplifier": "\u20b9 37,999.00",
-    "Amplifier": "\u20b9 7,999.00",
-    "Amplifier": "\u20b9 37,999.00",
-    "Amplifier": "\u20b9 37,99.00",
+    "Manual 5.1 Amplifier": "\u20b9 7,999.00",
+    "Optical 5.1 Amplifier": "\u20b9 9,999.00",
+    "Basic HDMI 5.1 Amplifier": "\u20b9 12,999.00",
+    "Preimum HDMI 5.1 Amplifier Model 1": "\u20b9 14,999.00",
+    "Astra 5.1 Amplifier model 1": "\u20b9 21,999.00",
+    "Astra 5.1 Amplifier Model 2": "\u20b9 23,999.00",
+    "Preimum HDMI 5.1 Amplifier Model 2": "\u20b9 15,999.00",
+    "Preimum HDMI 5.1 Amplifier Model 3": "\u20b9 15,999.00",
+    "Preimum HDMI 5.1 Amplifier Model 4": "\u20b9 18,99.00",
+    "Preimum HDMI 5.1 Amplifier Model 5": "\u20b9 22,999.00",
+    "Preimum HDMI 7.1 Amplifier M0del 1": "\u20b9 24,999.00",
+    "Preimum HDMI 7.1 Amplifier MOdel 2": "\u20b9 24,999.00",
+    "True Dolby Atoms Amplifier Model 1": "\u20b9 32,999.00",
+    "True Dolby Atoms Amplifier Model 2": "\u20b9 36,999.00",
+    "True Dolby Atoms Amplifier Model 3": "\u20b9 39,999.00",
+    "True Dolby Atoms Amplifier Model 4": "\u20b9 37,999.00",
+    "4 Inch Stallites Boxes": "\u20b9 3,999.00",
+    "6 Inch & 4 Inch reference Boxes": "price on request",
+    "4 Inch Stallites & 12 Inch JBL 1500 Watt Subwoofer Model 1": "\u20b9 11,999.00",
+    "4 Inch Stallites & 12 Inch JBL 1500 Watt Subwoofer Model 2": "\u20b9 11,999.00",
+    "6 Inch Stallites & 12 Inch JBL 1500 Watt Subwoofer": "\u20b9 18,999.00",
+    "12 Inch JBL 1500 Watt Subwoofer": "\u20b9 8,499.00",
+    "6 Inch Towers": "\u20b9 17,999.00",
+    "luxury Movie Theatre": "\u20b9 7,99,999.00",
+    "mini luxury movie Theatre": "\u20b9 6,99,999.00",
+    "mini movie Theatre": "\u20b9 5,99,999.00",
   };
 
 
@@ -394,172 +411,172 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     'audio-38': {
       category: "Amplifier",
-      name: "",
+      name: "True Dolby Atoms Amplifier Model 4",
       image: "images/ampimage16.webp",
-      desc: "",
+      desc: "Engineered for next-generation home theater setups, this 4-channel Dolby Atmos amplifier delivers precise, multi-dimensional overhead sound and crystal-clear acoustic localization.",
       features: ["", "", "", ""]
     },
     'audio-39': {
       category: "Amplifier",
-      name: "",
+      name: "4 Inch Stallites Boxes",
       image: "images/boxes1.webp",
-      desc: "",
+      desc: "These compact 4-inch satellite speakers deliver crisp, balanced high and mid-range frequencies for an expansive surround sound experience.",
       features: ["", "", "", ""]
     },
     'audio-40': {
       category: "Amplifier",
-      name: "",
+      name: "6 Inch & 4 Inch reference Boxes",
       image: "images/boxes2.webp",
-      desc: "",
+      desc: "These reference boxes pair 6-inch woofers with 4-inch drivers to deliver a balanced, full-range audio response with deep low-end punch and crystal-clear mids.",
       features: ["", "", "", ""]
     },
     'audio-41': {
       category: "Amplifier",
-      name: "",
+      name: "4 Inch Stallites & 12 Inch JBL 1500 Watt Subwoofer Model 1",
       image: "images/boxes3.webp",
-      desc: "",
+      desc: "This high-performance audio setup combines crisp 4-inch satellite speakers for detailed mid and high clarity with a robust 1500-watt 12-inch JBL subwoofer for thunderous bass.",
       features: ["", "", "", ""]
     },
     'audio-42': {
       category: "boxes",
-      name: "",
+      name: "4 Inch Stallites & 12 Inch JBL 1500 Watt Subwoofer Model 2",
       image: "images/boxes4.webp",
-      desc: "",
+      desc: "This alternative Model 2 configuration pairs precise 4-inch satellite speakers with a powerful 1500-watt 12-inch JBL subwoofer for a refocused acoustic profile.",
       features: ["", "", "", ""]
     },
     'audio-43': {
       category: "boxes",
-      name: "",
+      name: "6 Inch Stallites & 12 Inch JBL 1500 Watt Subwoofer",
       image: "images/boxes5.webp",
-      desc: "",
+      desc: "This premium configuration pairs powerful 6-inch satellite speakers for expansive, detailed mid and high frequencies with a thunderous 1500-watt 12-inch JBL subwoofer for deep, authoritative bass.",
       features: ["", "", "", ""]
     },
     'audio-44': {
       category: "boxes",
-      name: "",
+      name: "12 Inch JBL 1500 Watt Subwoofer",
       image: "images/boxes6.webp",
-      desc: "",
+      desc: "Engineered to deliver thunderous, room-shaking low frequencies, this high-output 1500-watt JBL subwoofer brings deep and authoritative bass impact to any audio system.",
       features: ["", "", "", ""]
     },
     'audio-45': {
       category: "boxes",
-      name: "",
+      name: "6 Inch Towers",
       image: "images/boxes7.webp",
-      desc: "",
+      desc: "These towering floor-standing speakers feature built-in 6-inch drivers to deliver room-filling sound with rich, powerful mid-bass and exceptional acoustic clarity.",
       features: ["", "", "", ""]
     },
     'audio-46': {
       category: "movie Theatre",
-      name: "",
+      name: "luxury Movie Theatre",
       image: "images/movietheatre2.webp",
-      desc: "",
+      desc: "Designed for the ultimate cinematic indulgence, this luxury movie theatre features plush reclining seating, state-of-the-art immersive surround sound, and crystal-clear laser projection.",
       features: ["", "", "", ""]
     },
     'audio-47': {
       category: "movie Theatre",
-      name: "",
+      name: "mini luxury movie Theatre",
       image: "images/movietheatre3.webp",
-      desc: "",
+      desc: "Combining an intimate, space-saving footprint with upscale high-end finishes, this mini luxury theatre features plush seating and bespoke acoustic-visual styling.",
       features: ["", "", "", ""]
     },
     'audio-48': {
       category: "movie Theatre",
-      name: "",
+      name: "mini movie Theatre",
       image: "images/movie theatre 4.webp",
-      desc: "",
+      desc: "Designed to bring the magic of cinema into a cozy, compact space, this mini home theatre combines immersive surround sound with optimized visual displays.",
       features: ["", "", "", ""]
     },
-    'audio-49': {
-      category: "movie Theatre",
-      name: "",
-      image: "images/",
-      desc: "",
-      features: ["", "", "", ""]
-    },
-    'audio-50': {
-      category: "movie Theatre",
-      name: "",
-      image: "images/",
-      desc: "",
-      features: ["", "", "", ""]
-    },
-    'audio-51': {
-      category: "movie Theatre",
-      name: "",
-      image: "images/",
-      desc: "",
-      features: ["", "", "", ""]
-    },
-    'audio-52': {
-      category: "movie Theatre",
-      name: "",
-      image: "images/",
-      desc: "",
-      features: ["", "", "", ""]
-    },
-    'audio-53': {
-      category: "movie Theatre",
-      name: "",
-      image: "images/",
-      desc: "",
-      features: ["", "", "", ""]
-    },
-    'audio-54': {
-      category: "Home Theatre",
-      name: "",
-      image: "images/",
-      desc: "",
-      features: ["", "", "", ""]
-    },
-    'audio-55': {
-      category: "Home Theatre",
-      name: "",
-      image: "images",
-      desc: "",
-      features: ["", "", "", ""]
-    },
-    'audio-56': {
-      category: "Home Theatre",
-      name: "",
-      image: "images/",
-      desc: "",
-      features: ["", "", "", ""]
-    },
-    'audio-57': {
-      category: "Home Theatre",
-      name: "",
-      image: "images/",
-      desc: "",
-      features: ["", "", "", ""]
-    },
-    'audio-58': {
-      category: "Home Theatre",
-      name: "",
-      image: "images/",
-      desc: "",
-      features: ["", "", "", ""]
-    },
-    'audio-59': {
-      category: "Home Theatre",
-      name: "",
-      image: "images/",
-      desc: "",
-      features: ["", "", "", ""]
-    },
-    'audio-60': {
-      category: "Home Theatre",
-      name: "",
-      image: "images/",
-      desc: "",
-      features: ["", "", "", ""]
-    },
-    'audio-61': {
-      category: "Home Theatre",
-      name: "",
-      image: "images/",
-      desc: "",
-      features: ["", "", "", ""]
-    },
+    // 'audio-49': {
+    //   category: "movie Theatre",
+    //   name: "",
+    //   image: "images/",
+    //   desc: "",
+    //   features: ["", "", "", ""]
+    // },
+    // 'audio-50': {
+    //   category: "movie Theatre",
+    //   name: "",
+    //   image: "images/",
+    //   desc: "",
+    //   features: ["", "", "", ""]
+    // },
+    // 'audio-51': {
+    //   category: "movie Theatre",
+    //   name: "",
+    //   image: "images/",
+    //   desc: "",
+    //   features: ["", "", "", ""]
+    // },
+    // 'audio-52': {
+    //   category: "movie Theatre",
+    //   name: "",
+    //   image: "images/",
+    //   desc: "",
+    //   features: ["", "", "", ""]
+    // },
+    // 'audio-53': {
+    //   category: "movie Theatre",
+    //   name: "",
+    //   image: "images/",
+    //   desc: "",
+    //   features: ["", "", "", ""]
+    // },
+    // 'audio-54': {
+    //   category: "Home Theatre",
+    //   name: "",
+    //   image: "images/",
+    //   desc: "",
+    //   features: ["", "", "", ""]
+    // },
+    // 'audio-55': {
+    //   category: "Home Theatre",
+    //   name: "",
+    //   image: "images",
+    //   desc: "",
+    //   features: ["", "", "", ""]
+    // },
+    // 'audio-56': {
+    //   category: "Home Theatre",
+    //   name: "",
+    //   image: "images/",
+    //   desc: "",
+    //   features: ["", "", "", ""]
+    // },
+    // 'audio-57': {
+    //   category: "Home Theatre",
+    //   name: "",
+    //   image: "images/",
+    //   desc: "",
+    //   features: ["", "", "", ""]
+    // },
+    // 'audio-58': {
+    //   category: "Home Theatre",
+    //   name: "",
+    //   image: "images/",
+    //   desc: "",
+    //   features: ["", "", "", ""]
+    // },
+    // 'audio-59': {
+    //   category: "Home Theatre",
+    //   name: "",
+    //   image: "images/",
+    //   desc: "",
+    //   features: ["", "", "", ""]
+    // },
+    // 'audio-60': {
+    //   category: "Home Theatre",
+    //   name: "",
+    //   image: "images/",
+    //   desc: "",
+    //   features: ["", "", "", ""]
+    // },
+    // 'audio-61': {
+    //   category: "Home Theatre",
+    //   name: "",
+    //   image: "images/",
+    //   desc: "",
+    //   features: ["", "", "", ""]
+    // },
   };
 
 
