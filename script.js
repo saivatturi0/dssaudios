@@ -128,9 +128,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     'audio-4': {
       category: "Boxes",
-      name: "4 Inch Boxes & 12 Inch Sub",
-      image: "images/box1.webp",
-      desc: "Enjoy clear, detailed sound from compact 4-inch speaker boxes paired with a powerful 12-inch subwoofer for deep, punchy bass.",
+      name: "Dolby Atoms Speakers Package",
+      image: "images/boxes8.webp",
+      desc: "Dolby Atmos speaker packages elevate your home entertainment with multidimensional overhead sound, delivering immersive, cinema-quality audio that places you right inside the action.",
       features: ["", "", "", ""]
     },
 
@@ -402,70 +402,70 @@ document.addEventListener('DOMContentLoaded', () => {
     'audio-39': {
       category: "Amplifier",
       name: "",
-      image: "images/",
+      image: "images/boxes1.webp",
       desc: "",
       features: ["", "", "", ""]
     },
     'audio-40': {
       category: "Amplifier",
       name: "",
-      image: "images/",
+      image: "images/boxes2.webp",
       desc: "",
       features: ["", "", "", ""]
     },
     'audio-41': {
       category: "Amplifier",
       name: "",
-      image: "images/",
+      image: "images/boxes3.webp",
       desc: "",
       features: ["", "", "", ""]
     },
     'audio-42': {
       category: "boxes",
       name: "",
-      image: "images/",
+      image: "images/boxes4.webp",
       desc: "",
       features: ["", "", "", ""]
     },
     'audio-43': {
       category: "boxes",
       name: "",
-      image: "images/",
+      image: "images/boxes5.webp",
       desc: "",
       features: ["", "", "", ""]
     },
     'audio-44': {
       category: "boxes",
       name: "",
-      image: "images/",
+      image: "images/boxes6.webp",
       desc: "",
       features: ["", "", "", ""]
     },
     'audio-45': {
       category: "boxes",
       name: "",
-      image: "images/",
+      image: "images/boxes7.webp",
       desc: "",
       features: ["", "", "", ""]
     },
     'audio-46': {
-      category: "boxes",
+      category: "movie Theatre",
       name: "",
-      image: "images/",
+      image: "images/movietheatre2.webp",
       desc: "",
       features: ["", "", "", ""]
     },
     'audio-47': {
       category: "movie Theatre",
       name: "",
-      image: "images/",
+      image: "images/movietheatre3.webp",
       desc: "",
       features: ["", "", "", ""]
     },
     'audio-48': {
       category: "movie Theatre",
       name: "",
-      image: "images/",
+      image: "images/movie theatre 4.webp",
       desc: "",
       features: ["", "", "", ""]
     },
